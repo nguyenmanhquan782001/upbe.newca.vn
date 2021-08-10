@@ -34,10 +34,3 @@ Route::get('/loginToken', [AffiliateController::class, 'loginToken']);
 Route::get('/addTicket', [AffiliateController::class, 'addTicket']);
 Route::get('/paymentWithVNPay', [AffiliateController::class, 'paymentWithVNPay']);
 
-// Nguyễn Mạnh Quân test API.
-
-Route::get("/users" , [UserController::class , 'index']);
-Route::post("/users/store" , [UserController::class , 'store']);
-
-
-//End Test API.
